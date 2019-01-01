@@ -492,3 +492,6 @@ footer p {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+p{
+	color: white
+}
