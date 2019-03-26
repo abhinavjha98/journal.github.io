@@ -658,7 +658,7 @@ img{
 	width: 100%;
 }
 .team-grid {
-	margin: 20px 0 0 0;
+	margin: 30px 0 0 0;
 	padding: 0;
 	list-style: none;
 	display: block;
@@ -674,7 +674,7 @@ img{
 .team-item {
 	width: 80%;
 	height: 80%;
-	border-radius: 50%;
+	border-radius: 60%;
 	position: relative;
 	cursor: default;
 	box-shadow: 
@@ -689,15 +689,27 @@ img{
 }
 
 .team-img-1 { 
-	background-image: url(assets/images/princi.jpg);
+	background-image: url(assets/images/princi1.jpg) ;
+	background-size: cover;
+  height: 100%;
+  width: 80%;
+  overflow: hidden;
 }
 
 .team-img-2 { 
-	background-image: url(assets/images/manisha.jpg);
+	background-image: url(assets/images/manisha1.jpg);
+	background-size: cover;
+  height: 100%;
+  overflow: hidden;
+
 }
 
 .team-img-3 { 
-	background-image: url(assets/images/naresh.jpg);
+	background-image: url(assets/images/naresh1.jpg);
+	background-size: cover;
+  height: 100%;
+  width: 80%;
+  overflow: hidden;
 }
 .team-img-4 { 
 	background-image: url(assets/images/team-member4.png);
